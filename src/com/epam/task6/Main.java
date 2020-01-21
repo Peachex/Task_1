@@ -4,7 +4,7 @@ package com.epam.task6;
 принадлежит закрашенной области, и false — в противном случае. Закрашенная область: x(-4;4), y(-3;0); x(-2;2), y(0;4). */
 public class Main {
     public static void main(String[] args) {
-        boolean flag = cheсkPoint(-4, -4);
+        boolean flag = cheсkPoint(-4, -3);
 
         System.out.println(flag);
     }
