@@ -10,12 +10,6 @@ public class Main {
     }
 
     public static boolean cheсkPoint(double x, double y) {
-        boolean flag;
-
-        if ((((x <= 4) && (x >= -4)) && ((y <= 0) && (y >= -3))) || (((x <= 2) && (x >= -2)) && ((y <= 4) && (y >= 0)))) {
-            flag = true;
-        } else flag = false;
-
-        return flag;
+        return (((x <= 4) && (x >= -4)) && ((y <= 0) && (y >= -3))) || (((x <= 2) && (x >= -2)) && ((y <= 4) && (y >= 0)));
     }
 }
