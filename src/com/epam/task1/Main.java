@@ -1,6 +1,6 @@
 package com.epam.task1;
 
-//1. Найдите значение функции: z = ( (a – 3 ) * b / 2) + c.
+// 1. Найдите значение функции: z = ( (a – 3 ) * b / 2) + c.
 public class Main {
     public static void main(String[] args) {
         double z = functionValue(4, 2, 3);
