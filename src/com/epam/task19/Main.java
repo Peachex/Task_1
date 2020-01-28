@@ -7,24 +7,12 @@ public class Main {
 
         String stringNumber1 = Double.toString(number1), stringNumber2 = Double.toString(number2);
 
-        char[] charNumber1 = stringNumber1.toCharArray(), charNumber2 = stringNumber2.toCharArray();
-
         System.out.println("Цифры, вхожящие как в " + number1 + " так и в " + number2 + " :");
 
-        for (int numeral = 48; numeral < 58; numeral++) {
-            if (findCommon(charNumber1, numeral) && findCommon(charNumber2, numeral)) {
-                System.out.println(numeral - 48);
+        for (int i = 0; i < 10; i++) {
+            if (stringNumber1.contains(Integer.toString(i)) && stringNumber2.contains(Integer.toString(i))) {
+                System.out.println(i + " ");
             }
         }
-    }
-
-    public static boolean findCommon(char[] array, int numeral) {
-        boolean flag = false;
-        for (int i = 0; i < array.length; i++) {
-            if (numeral == array[i]) {
-                flag = true;
-            }
-        }
-        return flag;
     }
 }
