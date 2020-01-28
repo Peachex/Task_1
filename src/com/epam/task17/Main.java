@@ -8,8 +8,7 @@ public class Main {
         Scanner in = new Scanner(System.in);
 
         for (char i = '0'; i >= '0' && i <= 'z'; i++) {
-            int charNumber = (int) i;
-            System.out.println(i + " - " + charNumber);
+            System.out.println(i + " - " + (int) i);
         }
     }
 }
