@@ -8,7 +8,8 @@ public class Main {
     public static void main(String[] args) {
         Scanner in = new Scanner(System.in);
 
-        long a = in.nextLong(), result = 0;
+        long a = in.nextLong();
+        long result = 0;
 
         for (int i = 1; i < a; i++) {
             result += i;
