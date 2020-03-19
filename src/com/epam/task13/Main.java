@@ -9,7 +9,10 @@ public class Main {
         Scanner in = new Scanner(System.in);
 
         System.out.println("Введите a, b, h: ");
-        double a = in.nextDouble(), b = in.nextDouble(), h = in.nextDouble(), result;
+        double a = in.nextDouble();
+        double b = in.nextDouble();
+        double h = in.nextDouble();
+        double result;
 
         for (double i = a; i <= b; i += h) {
             if (i > 2) {
