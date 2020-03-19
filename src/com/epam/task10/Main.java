@@ -3,7 +3,11 @@ package com.epam.task10;
 // 4. Заданы размеры А, В прямоугольного отверстия и размеры х, у, z кирпича. Определить, пройдет ли кирпич через отверстие.
 public class Main {
     public static void main(String[] args) {
-        double a = 2, b = 10, x = 40, y = 1, z = 9;
+        double a = 2;
+        double b = 10;
+        double x = 40;
+        double y = 1;
+        double z = 9;
 
         if (checkSize(a, b, x, y, z)) {
             System.out.println("Кирпич пройдет через отверстие.");
