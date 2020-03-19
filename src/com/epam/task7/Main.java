@@ -4,7 +4,8 @@ package com.epam.task7;
 он прямоугольным. */
 public class Main {
     public static void main(String[] args) {
-        double a = 45, b = 90;
+        double a = 45;
+        double b = 90;
 
         if (checkExistence(a, b)) {
             System.out.println("Треугольник существует.");
