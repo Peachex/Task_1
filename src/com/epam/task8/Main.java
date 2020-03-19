@@ -3,7 +3,10 @@ package com.epam.task8;
 // 2. Найти max{min(a, b), min(c, d)}.
 public class Main {
     public static void main(String[] args) {
-        double a = 2, b = 3, c = 11, d = 10;
+        double a = 2;
+        double b = 3;
+        double c = 11;
+        double d = 10;
 
         System.out.println(findMax(findMin(a, b), findMin(c, d)));
     }
