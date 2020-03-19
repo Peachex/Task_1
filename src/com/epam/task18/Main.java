@@ -9,7 +9,8 @@ public class Main {
         Scanner in = new Scanner(System.in);
 
         System.out.println("Введите m, n: ");
-        int m = in.nextInt(), n = in.nextInt();
+        int m = in.nextInt();
+        int n = in.nextInt();
 
         for (int i = m; i < n; i++) {
             if (i > 1) {
