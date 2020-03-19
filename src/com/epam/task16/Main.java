@@ -9,7 +9,8 @@ public class Main {
         Scanner in = new Scanner(System.in);
 
         System.out.print("e = ");
-        double e = in.nextDouble(), sum = 0;
+        double e = in.nextDouble();
+        double sum = 0;
 
         for (int i = 0; rowValue(i) >= e; i++) {
             sum += rowValue(i);
